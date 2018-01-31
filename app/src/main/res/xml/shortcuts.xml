@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:shortcutDisabledMessage="@string/message_one"
+        android:shortcutId="composess"
+        android:shortcutLongLabel="@string/msg_long"
+        android:shortcutShortLabel="@string/msg_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.nicholash.myapplication.MainActivity"
+            android:targetPackage="com.example.nicholash.myapplication" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:shortcutDisabledMessage="@string/message_one"
+        android:shortcutId="com"
+        android:shortcutLongLabel="@string/msg_long22"
+        android:shortcutShortLabel="@string/msg_long22">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.nicholash.practicedemo.Main2Activity"
+            android:targetPackage="com.example.nicholash.practicedemo" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PracticeDemo</string>
+    <string name="message_one">Message one</string>
+    <string name="msg_short">msg short</string>
+    <string name="msg_long">Msg long</string>
+
+    <string name="msg_long22">msg_long22</string>
+</resources>
